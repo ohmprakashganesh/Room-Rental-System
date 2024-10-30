@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  margin-left: 20px;
+}
+
+.left-side {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.left-side img {
+  width: 100%;
+  height: auto;
+}
+
+.right-side {
+  flex: 2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.room-info {
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.landlord-info {
+  flex: 1;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.book-button {
+  margin-top: 20px;
+  align-self: flex-end;
+  background-color: grey;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.ebooked{
+  margin-top: 20px;
+  align-self: flex-end;
+  background-color:red;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: darkgrey;
+}

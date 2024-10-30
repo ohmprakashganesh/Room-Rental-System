@@ -1,0 +1,146 @@
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #daf9fa;
+    
+  }
+  .motto {
+    padding: 30px;
+    width: 300px;
+    margin-right: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px lightblue;
+  }
+  
+  .motto img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  .motto h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: cursive;
+  }
+  .logo {
+    margin-bottom: 20px;
+    display: block;
+  }
+  h2{
+    display: block;
+  }
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  .motto p {
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .formbox {
+    padding: 30px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px lightblue;
+
+  }
+  
+  .inputbox {
+    margin-bottom: 15px;
+  }
+  
+  .formdesign input[type="text"],
+  .formdesign input[type="password"],
+  .formdesign input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  .success {
+    color:green;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .formerr{
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .btn {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .frg-btnn {
+    text-align: right;
+    margin-top: 10px;
+  }
+  .new-btnn {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .frg-btnn a,.new-btnn a {
+    color: grey;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .frg-btnn a:hover,.new-btnn a:hover {
+    color: rgb(81, 79, 79);
+    font-size: 16px;
+  }
+  .logo {
+    overflow: auto; /* Clear float */
+  }
+  
+  .logo  div {
+    float: left;
+    margin-right: 10px; /* Add spacing between the divs */
+  }
+  .logo #tag{
+    margin-top:20px;
+  }
+  h2{
+    font-family: cursive;
+  }
+  .logo #back{
+    margin-top:30px;
+  }
+  .logo #back:hover{
+    cursor: pointer;
+  }

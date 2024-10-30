@@ -1,0 +1,126 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+#econtainer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 5% auto 5%;
+    width: 100%;
+    height: 100%;
+}
+#edetails{
+    width: 80%;
+    height: 100px;
+    margin:auto;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+}
+#edetails p{
+    height: 100px;
+    text-align: left;
+    resize:both;
+}
+#edetails button{
+    height: 25px;
+    float: left;
+    font-family: cursive;
+    color: blue;
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    padding: 0;
+
+    box-shadow: none;
+    background-color:transparent;
+}
+
+
+
+
+  .eimg{
+    margin: auto;
+    width: 80%;
+    height: 450px;
+
+}
+.eimg img{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    height: 400px;
+    width: 600px;
+}
+.eimg img:hover{
+
+    height: 100%;
+    width: 100%;
+}
+.emain{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin:10px 10% 50px 10%;
+   
+    
+}
+ .ebox{
+    width: 100%;
+    display: flex;
+    
+} 
+
+.eroom{
+    width: 100%; 
+}
+th{
+    float: left;
+}
+td{
+    padding-right: 30px;
+}
+.eroom .name{
+    width: 25%;
+    font-weight: bold;
+
+}
+.eroom .value{
+    width: 70%;
+
+}
+.eowner{
+    width: 100%;
+} 
+.eowner .name{
+    width: 20%;
+    font-weight: bold;
+}
+.eowner .value{
+    width: 70%;
+}
+.value p{
+    width: 80%;
+    border-bottom: 1px solid black;
+}
+
+.book button{
+    background: none;
+    position: relative;
+    border: none;
+    width: 100px;
+    height:40px;
+    background-color: azure;
+    box-shadow: 3px 3px 5px gray;
+    top: -60px;
+    left:43%;
+}
+.copy{
+    background-color: rgb(16, 16, 16);
+    color: white;
+    text-align: center;
+}
+.copy p{
+    color: white;
+}

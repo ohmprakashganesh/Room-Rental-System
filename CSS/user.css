@@ -1,0 +1,175 @@
+
+#container {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 40%;
+    transform: translateX(-50%);
+    background: white;
+    height: 100vhpx;
+    width: 1100px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px black;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 50px;
+    grid-template-rows: 0.5fr 1.5fr;
+}
+
+.image-section{
+  position: relative;
+}
+.content-section {
+    padding: 40px;
+}
+.image {
+    text-align: center;
+}
+#container .image img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+#container .image img:hover{
+    transform: scaleX(1.1);
+}
+.name {
+    margin-bottom: 0;
+    color: black;
+    text-align: center;
+}
+.details{
+text-align: center;
+position:relative;
+background: white;
+box-shadow: 0 0 10px black;
+width: 400px;
+top: 2%;
+left:30%;
+height:80px;
+border-radius: 15px;
+display: grid;
+padding: 0;
+margin-bottom: 15px;
+grid-template-columns: 1fr 1fr;
+border: 1px solid rgb(76, 73, 73);
+}
+.rented,.added{
+padding:0;
+margin-top: 10px;
+}
+.details p{  
+margin: 0;
+color:black;
+align-items: center;
+}
+.num{
+font-weight: bolder;
+font-size: 30px;
+}
+.type{
+font-size: 15px;
+}
+.accessories{ 
+position:relative;
+width: 500px;
+left:23%;
+top: 5%;
+height:350px;
+background-color:white;
+box-shadow: 0 0 10px black;
+border-radius: 15px;
+display: grid;
+padding: 35px;
+font-weight: bolder;
+grid-template-rows: 1fr 1fr 1fr;
+}
+.accessories div{
+    background:wheat;
+    margin-bottom: 2px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    }
+.accessories div i{
+color: black;
+text-align: left;
+margin: 15px;
+}
+.Rooms-added,.Rooms-rented,.settings,.edit{
+margin-bottom: 2px;
+display: grid;
+grid-template-columns: 0.5fr 1fr 0.5fr;
+}
+.accessories p{
+color: black;
+margin-top: 0;
+margin-left: 20px;
+font-size: 20px;
+}
+.accessories .next p{
+text-align: right;
+font-size: 30px;
+font-weight: bolder;
+}
+.logout{
+text-align: left;
+position:relative;
+background: white;
+box-shadow: 0 0 10px black;
+width: 600px;
+left:21%;
+top: 7%;
+height:50px;
+border-radius: 15px;
+display: grid;
+padding: 0;
+margin: 0;
+grid-template-columns: 1fr 1fr;
+border: 1px solid rgb(76, 73, 73);
+}
+.logout{
+justify-content: center;
+align-items: center;
+
+}
+ a{
+margin-left: 10px;
+text-align: center;
+color: rgb(16, 15, 15);
+font-size: 20px;
+font-weight: bolder;
+text-decoration: none;
+}
+#confirm {
+    position: absolute;
+    top:50%;
+    left:30%;
+    width: 330px;
+    background-size: contain;
+    background-position: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow:white;
+    background-color: white;
+    z-index: 0;
+    backface-visibility: visible;
+    display: none;
+}
+#roomno{
+  display: none;
+}
+#con-btn{
+  align-items: center;
+
+}
+#cancel{
+  color:black;
+  background-color: white;
+  border: 1px black solid;
+}
+.cancel,.delete{
+  display: block;
+  justify-content: space-around;
+}

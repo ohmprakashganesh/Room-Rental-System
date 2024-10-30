@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  color: white;
+  background-image: linear-gradient(rgb(6, 6, 6), rgb(244, 244, 244));
+  padding-top: 10px;
+  color: white;
+  padding-right: 6px;
+  padding-left: 6px;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}
+li{
+  text-align: center;
+  color: white;
+}
+.logo img {
+  width: 45px;
+  height: 40px;
+  margin: 0;
+  background: rgba(169, 169, 17, 0.5);
+}
+.nav ul {
+  display: flex;
+}
+
+.nav ul li {
+  list-style: none;
+  margin-left: 2px;
+  text-align: center;
+  padding: 5px 2px 0px 5px;
+  padding-top: 8px;
+}
+li a,.btn {
+  background-color: rgba(14, 243, 220, 0.3);
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  color: rgb(222, 232, 240);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-size: 19px;
+}
+.main-container .bg img {
+  width: 100%;
+  height: 100vh;
+}
+.bg {
+  background: rgba(214, 215, 25, 0.3);
+}
+.bg .lines {
+  position: absolute;
+  top: 50%;
+  background: transparent;
+  left: 50%;
+  display: inline-block;
+  text-shadow: 5px 9px 7px rgb(0, 0, 0);
+  text-align: center;
+  width: 80%;
+  color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+}
+.main-container .search {
+  background-color: rgba(cadetblue, 0.4);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 40px;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: rgba(238, 238, 223, 0.8);
+  display: flex;
+  /*justify-content: space-around;*/
+  position: absolute;
+  border: none;
+  top: 85%;
+}
+
+button {
+  text-align: center;
+  box-shadow: 3px 3px 5px black;
+
+  width: 50px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+}
+
+.one {
+  background: transparent;
+  border: 1px solid wheat;
+  position: absolute;
+  width: 240px;
+  height: 320px;
+  justify-content: center;
+  top: 95%;
+  left: 7%;
+  border-radius: 7px;
+}
+
+.two {
+  background: transparent;
+  border: 1px solid wheat;
+  position: absolute;
+  width: 240px;
+  height: 320px;
+  justify-content: center;
+  top: 0%;
+  left: 125%;
+  border-radius: 7px;
+
+  gap: 5%;
+}
+
+.three {
+  border-radius: 7px;
+
+  background: transparent;
+  border: 1px solid wheat;
+  position: absolute;
+  width: 240px;
+  height: 320px;
+  justify-content: center;
+  top: 0%;
+  left: 125%;
+  right: 2%;
+  gap: 3%;
+}
+
+.four {
+  border-radius: 7px;
+  background: transparent;
+  border: 1px solid wheat;
+  position: absolute;
+  width: 240px;
+  height: 320px;
+  justify-content: center;
+  top: 120%;
+  left: -250%;
+  right: 2%;
+  gap: 3%;
+}
+
+.five {
+  border-radius: 7px;
+
+  background: transparent;
+  border: 1px solid wheat;
+  position: absolute;
+  width: 240px;
+  height: 320px;
+  justify-content: center;
+  top: 0%;
+  left: 125%;
+  right: 2%;
+  gap: 3%;
+}
+
+.six {
+  border-radius: 7px;
+
+  background: transparent;
+  border: 1px solid wheat;
+  position: absolute;
+  width: 240px;
+  height: 320px;
+  justify-content: center;
+  top: 0%;
+  left: 125%;
+  right: 2%;
+  gap: 3%;
+}
+.img img {
+  width: 100%;
+  height: 200px;
+  border-radius: 7px;
+}
+.title {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: x-large;
+
+  /* width: 100px;
+    height: 100px;; */
+}
+.desc {
+  margin-bottom: 5px;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  overflow: scroll;
+}
+.one .readmore {
+  display: flex;
+  width: 100%;
+}
+.readmore button {
+  width: 48%;
+  margin: 5px;
+}
+.text {
+  height: 400px;
+  width: 220px;
+  background-color: black;
+}
+.footer {
+  float: left;
+  width: 950px;
+  height: 300px;
+  position: absolute;
+  left: -650px;
+}
+.footer div {
+  width: 100%;
+  text-align: center;
+
+  height: 200px;
+  margin-top: 4px;
+  background-color: gray;
+}

@@ -1,0 +1,123 @@
+.accessories{ 
+position:absolute;
+width: auto;
+min-width: 600px;
+left:15%;
+top: 5%;
+height: auto;
+background-color:white;
+box-shadow: 0 0 10px black;
+border-radius: 15px;
+padding: 45px;
+font-weight: bolder;
+grid-template-rows: 1fr 1fr 1fr;
+}
+  h2{
+    display: block;
+  }
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  .motto p {
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .formbox {
+    padding: 30px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px lightblue;
+
+  }
+  
+  .inputbox {
+    margin-bottom: 15px;
+  }
+  
+  .formdesign input[type="text"],
+  .formdesign input[type="password"],
+  .formdesign input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  .success {
+    color:green;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .formerr{
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .btn {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  
+  .btn input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .frg-btnn {
+    text-align: right;
+    margin-top: 10px;
+  }
+  .new-btnn {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .frg-btnn a,.new-btnn a {
+    color: grey;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .frg-btnn a:hover,.new-btnn a:hover {
+    color: rgb(81, 79, 79);
+    font-size: 16px;
+  }
+  h2{
+    text-align: center;
+  }
+  #button{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn{
+    width: 300px;
+  }
+  .room-type-cell{
+    margin-right: 20px;
+    white-space: nowrap; 
+    overflow: hidden;   
+    text-overflow: ellipsis;
+    width: 600px; 
+  }
+  #requests{
+    background-color: greenyellow;
+    font: black;
+}
+#booked{
+    background-color: red;
+    color: white;
+}

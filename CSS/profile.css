@@ -1,0 +1,149 @@
+#user-profiles{
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: auto;
+    width: 450px;
+    border: 1px solid black;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px black;
+}
+#image{
+    width: 100%;
+    height:150px;
+    display: flex;
+}
+#pic{
+    width: 40%;
+}
+#details{
+    width: 50%;
+}
+#details p{
+    margin: 0;
+    position: relative;
+    left: -5%;
+    padding: 2px;
+}
+img{
+    height:100px;
+    width:140px;
+}
+#rooms,#edits{
+    display: flex;
+    width:400px;
+    height:100px;
+
+}
+#roomrented,#roomadded,#change,#edit{
+    background-color: grey;
+    display:block;
+    width:200px;
+    color:white;
+    height: 50px;
+    font-family:cursive;
+    text-align: center;
+    margin-right: 22px;
+    border: 4px rgb(67, 66, 66) solid;
+}
+#roomrented:hover,#roomadded:hover,#change:hover,#edit:hover,#log.hover{
+    background-color: white;
+    transform: scale(1.1);
+    color:black;
+    cursor: pointer;
+    border: 4px black solid;
+}
+#logout{
+    background-color: grey;
+    display:block;
+    width:425px;
+    color:white;
+    height: 50px;
+    font-family:cursive;
+    text-align: center;
+    margin-left: 1.5px;
+    border: 4px rgb(63, 63, 63) solid;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#roomno{
+  display: none;
+}
+h2{
+  font-family: cursive;
+  text-align: center;
+} 
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #757b75;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  button #booked{
+    background-color:red ;
+  }
+  button #requests{
+    background-color:greenyellow;
+  }
+  button:hover {
+    background-color: #3c3d3c;
+  }
+  
+  button:active {
+    background-color: #313131;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+#confirmation-box {
+  position: relative;
+  top: 50%;
+  left: 25%;
+  display: none;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+h1 {
+    color: #333;
+}
+.confirmation-message {
+    margin: 20px 0;
+    font-size: 18px;
+}
+.button-container {
+    margin-top: 20px;
+}
+.proceed-button, .cancel-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.proceed-button {
+    background-color: #171717;
+    color: white;
+    border: none;
+}
+.cancel-button {
+    background-color: white;
+    color: rgb(4, 4, 4);
+    border: black 1px solid;
+} 
